@@ -35,7 +35,12 @@ First get an apikey from [NCBO BioPortal](http://bioportal.bioontology.org)
 
 - Retrieves an ontology by name,  and returns a [BioPortal::Ontology](http://search.cpan.org/perldoc?BioPortal::Ontology) object
 
-## For rest of the __API__ look at [BioPortal::Base](http://search.cpan.org/perldoc?BioPortal::Base)
+## For rest of the __API__ look at 
+
+- [BioPortal::Base](http://search.cpan.org/perldoc?BioPortal::Base)
+- [BioPortal::Ontology](http://search.cpan.org/perldoc?BioPortal::Ontology)
+- [BioPortal::Term](http://search.cpan.org/perldoc?BioPortal::Term)
+- [BioPortal::Iterator::Term](http://search.cpan.org/perldoc?BioPortal::Iterator::Term)
 
 # AUTHOR
 

@@ -64,4 +64,18 @@ First get an apikey from L<NCBO BioPortal|http://bioportal.bioontology.org>
 
 =back
 
-=head2 For rest of the B<API> look at L<BioPortal::Base>
+=head2 For rest of the B<API> look at 
+
+=over 
+
+=item L<BioPortal::Base>
+
+=item L<BioPortal::Ontology>
+
+=item L<BioPortal::Term>
+
+=item L<BioPortal::Iterator::Term>
+
+=back
+
+
