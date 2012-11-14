@@ -1,5 +1,6 @@
 use Test::Spec;
 use BioPortal::WebService;
+use Test::More qw/no_plan/;
 
 SKIP: {
     if ( not defined $ENV{BIOPORTAL_API_KEY} ) {
