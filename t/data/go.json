@@ -1,0 +1,97 @@
+{
+    "success": {
+        "accessDate": "2012-11-12 12:34:59.592 PST", 
+        "accessedResource": "/bioportal/virtual/ontology/1070", 
+        "data": [
+            {
+                "ontologyBean": {
+                    "abbreviation": "GO", 
+                    "categoryIds": [
+                        {
+                            "int": 2806
+                        }
+                    ], 
+                    "codingScheme": "http://www.bioontology.org/49457/Gene Ontology|1070/1157", 
+                    "contactEmail": "go@geneontology.org", 
+                    "contactName": "Gene Ontology", 
+                    "dateCreated": "2012-11-11 18:01:40.0 PST", 
+                    "dateReleased": "2012-11-11 18:01:40.0 PST", 
+                    "description": "Provides structured controlled vocabularies for the annotation of gene products with respect to their molecular function, cellular component, and biological role. The Gene Ontology consists of three Vocabularies.", 
+                    "displayLabel": "Gene Ontology", 
+                    "documentation": "http://www.geneontology.org/GO.doc.shtml", 
+                    "downloadLocation": "http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/genomic-proteomic/gene_ontology_edit.obo", 
+                    "filePath": "/1070/1157", 
+                    "filenames": [
+                        {
+                            "string": "gene_ontology_edit.obo"
+                        }
+                    ], 
+                    "format": "OBO", 
+                    "groupIds": [
+                        {
+                            "int": [
+                                6001, 
+                                6008, 
+                                6002, 
+                                6011
+                            ]
+                        }
+                    ], 
+                    "hasViews": [
+                        {
+                            "int": [
+                                39994, 
+                                39993, 
+                                39996, 
+                                39995, 
+                                41002, 
+                                41000, 
+                                41001, 
+                                39992
+                            ]
+                        }
+                    ], 
+                    "homepage": "http://www.geneontology.org", 
+                    "id": 49457, 
+                    "internalVersionNumber": 1157, 
+                    "isFlat": 0, 
+                    "isFoundry": 1, 
+                    "isManual": 0, 
+                    "isMetadataOnly": 0, 
+                    "isRemote": 1, 
+                    "isView": false, 
+                    "oboFoundryId": "biological_process", 
+                    "ontologyId": 1070, 
+                    "statusId": 3, 
+                    "userAcl": [
+                        ""
+                    ], 
+                    "userIds": [
+                        {
+                            "int": 38118
+                        }
+                    ], 
+                    "versionNumber": "2012-11-10", 
+                    "versionStatus": "production", 
+                    "viewOnOntologyVersionId": [
+                        ""
+                    ], 
+                    "virtualViewIds": [
+                        {
+                            "int": [
+                                2010, 
+                                2008, 
+                                2009, 
+                                2011, 
+                                2012, 
+                                2014, 
+                                2007, 
+                                2013
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

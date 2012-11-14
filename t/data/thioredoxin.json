@@ -1,0 +1,56 @@
+{
+    "success": {
+        "accessDate": "2012-11-12 11:27:07.317 PST", 
+        "accessedResource": "/bioportal/concepts/45246/GO:0000008", 
+        "data": [
+            {
+                "classBean": {
+                    "definitions": [
+                        {
+                            "string": "OBSOLETE. A small disulfide-containing redox protein that serves as a general protein disulfide oxidoreductase. Interacts with a broad range of proteins by a redox mechanism, based on the reversible oxidation of 2 cysteine thiol groups to a disulfide, accompanied by the transfer of 2 electrons and 2 protons. The net result is the covalent interconversion of a disulfide and a dithiol."
+                        }
+                    ], 
+                    "fullId": "http://purl.obolibrary.org/obo/GO_0000008", 
+                    "id": "GO:0000008", 
+                    "isObsolete": 1, 
+                    "label": "thioredoxin", 
+                    "relations": [
+                        {
+                            "entry": [
+                                {
+                                    "int": 0, 
+                                    "string": "ChildCount"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": "GOC:kd"
+                                        }
+                                    ], 
+                                    "string": "xref_definition"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": "This term was made obsolete because it represents gene products."
+                                        }
+                                    ], 
+                                    "string": "Comment"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": "GO:0000013"
+                                        }
+                                    ], 
+                                    "string": "alt_id"
+                                }
+                            ]
+                        }
+                    ], 
+                    "type": "class"
+                }
+            }
+        ]
+    }
+}

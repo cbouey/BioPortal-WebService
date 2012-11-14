@@ -1,0 +1,180 @@
+{
+    "success": {
+        "accessDate": "2012-10-23 12:24:58.333 PDT", 
+        "accessedResource": "/bioportal/concepts/45246/GO:0000050", 
+        "data": [
+            {
+                "classBean": {
+                    "definitions": [
+                        {
+                            "string": "The sequence of reactions by which arginine is synthesized from ornithine, then cleaved to yield urea and regenerate ornithine. The overall reaction equation is NH3 + CO2 + aspartate + 3 ATP + 2 H2O = urea + fumarate + 2 ADP + 2 phosphate + AMP + diphosphate."
+                        }
+                    ], 
+                    "fullId": "http://purl.obolibrary.org/obo/GO_0000050", 
+                    "id": "GO:0000050", 
+                    "label": "urea cycle", 
+                    "relations": [
+                        {
+                            "entry": [
+                                {
+                                    "int": 0, 
+                                    "string": "ChildCount"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": [
+                                                "ISBN:0198506732 \"Oxford Dictionary of Biochemistry and Molecular Biology\"", 
+                                                "GOC:vw", 
+                                                "GOC:pde"
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "xref_definition"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": [
+                                                "ornithine cycle", 
+                                                "urea biosynthesis", 
+                                                "urea biosynthetic process"
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "EXACT SYNONYM"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": [
+                                                "Reactome:1256256", 
+                                                "Reactome:1275940", 
+                                                "Reactome:1300644", 
+                                                "Reactome:1330183", 
+                                                "Reactome:1354421", 
+                                                "Reactome:1368676", 
+                                                "Reactome:1383868", 
+                                                "Reactome:1402516", 
+                                                "Reactome:1410142", 
+                                                "Reactome:1415932", 
+                                                "Reactome:1421751", 
+                                                "Reactome:1425485", 
+                                                "Reactome:1427668", 
+                                                "Reactome:1429079", 
+                                                "Reactome:1430222", 
+                                                "Wikipedia:Urea_cycle", 
+                                                "Reactome:70635", 
+                                                "Reactome:1136681", 
+                                                "Reactome:1163583", 
+                                                "Reactome:1182449", 
+                                                "Reactome:1210095", 
+                                                "Reactome:1235470"
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "xref"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "classBean": [
+                                                {
+                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0019627", 
+                                                    "id": "GO:0019627", 
+                                                    "label": "urea metabolic process", 
+                                                    "relations": [
+                                                        {
+                                                            "entry": {
+                                                                "int": 3, 
+                                                                "string": "ChildCount"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "type": "class"
+                                                }, 
+                                                {
+                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0043604", 
+                                                    "id": "GO:0043604", 
+                                                    "label": "amide biosynthetic process", 
+                                                    "relations": [
+                                                        {
+                                                            "entry": {
+                                                                "int": 6, 
+                                                                "string": "ChildCount"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "type": "class"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "is_a"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "string": [
+                                                "GO:0006594", 
+                                                "GO:0006871"
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "alt_id"
+                                }, 
+                                {
+                                    "list": [
+                                        {
+                                            "classBean": [
+                                                {
+                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0019627", 
+                                                    "id": "GO:0019627", 
+                                                    "label": "urea metabolic process", 
+                                                    "relations": [
+                                                        {
+                                                            "entry": {
+                                                                "int": 3, 
+                                                                "string": "ChildCount"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "type": "class"
+                                                }, 
+                                                {
+                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0043604", 
+                                                    "id": "GO:0043604", 
+                                                    "label": "amide biosynthetic process", 
+                                                    "relations": [
+                                                        {
+                                                            "entry": {
+                                                                "int": 6, 
+                                                                "string": "ChildCount"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "type": "class"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "string": "SuperClass"
+                                }
+                            ]
+                        }
+                    ], 
+                    "synonyms": [
+                        {
+                            "string": [
+                                "ornithine cycle", 
+                                "urea biosynthesis", 
+                                "urea biosynthetic process"
+                            ]
+                        }
+                    ], 
+                    "type": "class"
+                }
+            }
+        ]
+    }
+}
