@@ -33,13 +33,26 @@ __PACKAGE__->meta->make_immutable;
 
 BioPortal::WebService - Perl API for accessing ontologies from NCBO bioportal
 
-=head1 SYNOPSIS
+=head1 USAGE
+
+First get an apikey from L<NCBO BioPortal|http://bioportal.bioontology.org>
+
+=head2 Get an ontology
 
    use BioPortal::WebService;
 
    my $portal = BioPortal::WebService->new(api_key => $apikey);
    my $ontology = $portal->get_ontology('GO');
    say $ontology->name;
+
+=head2 Iterate and get individual terms
+
+     my $itr = ontology->get_all_terms;
+     while(my $term = $itr->next_term) {
+        say sprintf "%s\t%s\t%s", $term->name, $term->definition, $term->identifier;
+     }
+
+    
 
 =head1 INTERFACE
 
