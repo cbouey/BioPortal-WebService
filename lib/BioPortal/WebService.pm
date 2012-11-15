@@ -21,7 +21,7 @@ sub get_ontology {
     my $onto_content = $self->get_content_by_index($index);
     return BioPortal::Ontology->new(
         raw_hash_content => $onto_content,
-        api_key          => $self->apikey
+        apikey          => $self->apikey
     );
 }
 
