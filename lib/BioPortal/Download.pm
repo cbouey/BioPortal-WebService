@@ -14,7 +14,7 @@ has '_content' => (
 );
 
 has 'filename' => ( is => 'rw', isa => 'Str' );
-has 'is_obo' => (
+has 'is_obo_format' => (
     is      => 'ro',
     isa     => 'Bool',
     lazy    => 1,
