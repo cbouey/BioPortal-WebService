@@ -29,13 +29,37 @@ First get an apikey from [NCBO BioPortal](http://bioportal.bioontology.org)
         say sprintf "%s\t%s\t%s", $term->name, $term->definition, $term->identifier;
      }
 
+## Download ontology
+
+    use OBO::Parser::OBOParser;
+
+    my $portal = BioPortal::WebService->new(api_key => $apikey);
+    my $download = $portal->download('GO');
+
+    if ($download->is_obo) {
+      my $ontology = OBO::Parser::OBOParser->new->work($download->filename);
+      my @terms = $ontology->get_terms;
+    }
+
 # INTERFACE
 
 ## get\_ontology
 
 - Retrieves an ontology by name,  and returns a [BioPortal::Ontology](http://search.cpan.org/perldoc?BioPortal::Ontology) object
 
-## For rest of the __API__ look at 
+## download
+
+- Download an ontology in OBO format,  gets a [BioPortal::Download](http://search.cpan.org/perldoc?BioPortal::Download) object 
+
+         my $download = $webservice->download('GO')
+         say $download->filename;
+         if ($download->is_obo) {
+            ...parse obo file here
+          }
+
+## More documentation
+
+For rest of the __API__ look at 
 
 - [BioPortal::Base](http://search.cpan.org/perldoc?BioPortal::Base)
 - [BioPortal::Ontology](http://search.cpan.org/perldoc?BioPortal::Ontology)

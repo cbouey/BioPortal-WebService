@@ -131,11 +131,18 @@ First get an apikey from L<NCBO BioPortal|http://bioportal.bioontology.org>
 
 =item Download an ontology in OBO format,  gets a L<BioPortal::Download> object 
 
+
+=over
+
+=item
+
      my $download = $webservice->download('GO')
      say $download->filename;
      if ($download->is_obo) {
         ...parse obo file here
-     }
+      }
+
+=back
 
 =back
 
