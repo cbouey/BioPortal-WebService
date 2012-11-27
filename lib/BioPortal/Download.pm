@@ -2,6 +2,7 @@ package BioPortal::Download;
 
 use namespace::autoclean;
 use Moose;
+use File::Copy;
 
 has '_content' => (
     is      => 'rw',
@@ -23,6 +24,11 @@ has 'is_obo' => (
         return ( $value eq 'OBO' ) ? 1 : 0;
     }
 );
+
+sub save_to {
+    my ( $self, $to ) = @_;
+    copy $self->filename, $to;
+}
 
 __PACKAGE__->meta->make_immutable;
 1;    # Magic true value required at end of module
