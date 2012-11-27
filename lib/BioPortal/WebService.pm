@@ -1,15 +1,19 @@
 package BioPortal::WebService;
 use namespace::autoclean;
-use Moose;
-use List::MoreUtils qw/first_index/;
-use BioPortal::Ontology;
 use Carp;
-use File::Temp qw/tempfile/;
+use Moose;
+use File::Temp;
+use BioPortal::Ontology;
+use BioPortal::Download;
 use autodie qw/:file/;
+use feature qw/say/;
+use Scalar::Util qw/reftype/;
+use List::MoreUtils qw/first_index firstval/;
+use IO::Uncompress::Unzip qw/unzip $UnzipError/;
 extends 'BioPortal::Base';
 
 sub _get_onto_content {
-	my ($self, $name) = @_;
+    my ( $self, $name ) = @_;
 
     my $content
         = $self->get( path => '/ontologies', apikey => $self->apikey );
@@ -17,42 +21,49 @@ sub _get_onto_content {
         $content->{success}->{data}->[0]->{list}->[0]->{ontologyBean} );
     my $index
         = first_index { $_->{abbreviation} eq $name } $self->all_content;
-    if ( !$index ) {
+    if ( not defined $index ) {
         croak "ontology $name not found\n";
     }
     return $self->get_content_by_index($index);
 }
 
 sub download {
-    my ( $self, $name, $file ) = @_;
+    my ( $self, $name ) = @_;
+
     #get the ontology id
     my $content = $self->_get_onto_content($name);
-    my $id           = $content->{ontologyId};
+    my $id      = $content->{ontologyId};
 
-    #download using ontology id
-    my $output;
-    if ($file) {
-        $output = IO::File->new( $file, 'w' );
-    }
-    else {
-        ( $output, $file ) = tempfile();
-    }
-    my $ua = $self->ua;
-    $ua->add_handler(
-        response_data => sub {
-            my ( $res, $ua, $header, $data ) = @_;
-            if ( $res->is_error ) {
-                say "!!!! error in fetching";
-                die sprintf( "%s\t%s\n", $resp->code, $resp->status_line );
-            }
-            $output->print($data);
-            return $res->is_success;
-        }
+    my $tmpfile = File::Temp->new->filename;
+    my $ua      = $self->useragent;
+    $ua->get(
+        $self->api_base_url . "/virtual/download/$id?apikey=" . $self->apikey,
+        ':content_file' => $tmpfile
     );
-    $ua->get( $self->api_base_url
-            . "/virtual/download/$id?apikey="
-            . $self->apikey );
-    return $file;
+
+    #check if its going to be zip file
+    if ( $self->_is_zipped_download($content) ) {
+        my $filename = File::Temp->new->filename;
+        my $status = unzip $tmpfile => $filename
+            or croak "unzip failed: $UnzipError\n";
+        return BioPortal::Download->new(
+            filename => $filename,
+            _content => $content
+        );
+    }
+    return BioPortal::Download->new(
+        filename => $tmpfile,
+        _content => $content
+    );
+}
+
+sub _is_zipped_download {
+    my ( $self, $content ) = @_;
+    my $files = $content->{filenames}->[0]->{string};
+    if ( reftype $files) {
+        return ( firstval {/(obo|owl)$/} @$files ) ? 0 : 1;
+    }
+    return ( $files =~ /zip$/ ) ? 1 : 0;
 }
 
 sub get_ontology {
@@ -95,10 +106,12 @@ First get an apikey from L<NCBO BioPortal|http://bioportal.bioontology.org>
    use OBO::Parser::OBOParser;
 
    my $portal = BioPortal::WebService->new(api_key => $apikey);
-   my $input = $portal->download('GO');
+   my $download = $portal->download('GO');
 
-   my $ontology = OBO::Parser::OBOParser->new->work($input);
-   my @terms = $ontology->get_terms;
+   if ($download->is_obo) {
+     my $ontology = OBO::Parser::OBOParser->new->work($download->filename);
+     my @terms = $ontology->get_terms;
+   }
 
     
 
@@ -116,14 +129,13 @@ First get an apikey from L<NCBO BioPortal|http://bioportal.bioontology.org>
 
 =over
 
-=item Download an ontology in OBO format
+=item Download an ontology in OBO format,  gets a L<BioPortal::Download> object 
 
-     my $tmpfile = $webservice->download('GO')
-
-Returns a temporary filename or saves output to a given file.
-
-     $webservice->download('GO', 'go.obo');
-
+     my $download = $webservice->download('GO')
+     say $download->filename;
+     if ($download->is_obo) {
+        ...parse obo file here
+     }
 
 =back
 
