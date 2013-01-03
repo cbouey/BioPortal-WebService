@@ -1,0 +1,1102 @@
+{
+    "success": {
+        "accessDate": "2012-10-20 05:34:15.203 PDT", 
+        "accessedResource": "/bioportal/concepts/45246/all", 
+        "data": [
+            {
+                "page": {
+                    "contents": {
+                        "@class": "org.ncbo.stanford.bean.concept.ClassBeanResultListBean", 
+                        "classBeanResultList": {
+                            "classBean": [
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "The distribution of mitochondria, including the mitochondrial genome, into daughter cells after mitosis or meiosis, mediated by interactions between mitochondria and the cytoskeleton."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000001", 
+                                    "id": "GO:0000001", 
+                                    "label": "mitochondrion inheritance", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SubClass"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "[R]part_of"
+                                                }, 
+                                                {
+                                                    "int": 1, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "PMID:10873824", 
+                                                                "GOC:mcc", 
+                                                                "PMID:11389764"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "mitochondrial inheritance"
+                                                        }
+                                                    ], 
+                                                    "string": "EXACT SYNONYM"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": [
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048311", 
+                                                                    "id": "GO:0048311", 
+                                                                    "label": "mitochondrion distribution", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 2, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048308", 
+                                                                    "id": "GO:0048308", 
+                                                                    "label": "organelle inheritance", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": [
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048311", 
+                                                                    "id": "GO:0048311", 
+                                                                    "label": "mitochondrion distribution", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 2, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048308", 
+                                                                    "id": "GO:0048308", 
+                                                                    "label": "organelle inheritance", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "synonyms": [
+                                        {
+                                            "string": "mitochondrial inheritance"
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "The maintenance of the structure and integrity of the mitochondrial genome; includes replication and segregation of the mitochondrial chromosome."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000002", 
+                                    "id": "GO:0000002", 
+                                    "label": "mitochondrial genome maintenance", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SubClass"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0032042", 
+                                                                "id": "GO:0032042", 
+                                                                "label": "mitochondrial DNA metabolic process", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 3, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "[R]part_of"
+                                                }, 
+                                                {
+                                                    "int": 2, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "GOC:vw", 
+                                                                "GOC:ai"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0033955", 
+                                                                "id": "GO:0033955", 
+                                                                "label": "mitochondrial DNA inheritance", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 0, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "[R]is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0007005", 
+                                                                "id": "GO:0007005", 
+                                                                "label": "mitochondrion organization", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 13, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0007005", 
+                                                                "id": "GO:0007005", 
+                                                                "label": "mitochondrion organization", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 13, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "The production by an organism of new individuals that contain some portion of their genetic material inherited from that organism."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000003", 
+                                    "id": "GO:0000003", 
+                                    "label": "reproduction", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "goslim_generic", 
+                                                                "goslim_pir", 
+                                                                "goslim_plant", 
+                                                                "gosubset_prok"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "subset"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SubClass"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0022414", 
+                                                                "id": "GO:0022414", 
+                                                                "label": "reproductive process", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 11, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "[R]part_of"
+                                                }, 
+                                                {
+                                                    "int": 5, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "GOC:isa_complete", 
+                                                                "ISBN:0198506732 \"Oxford Dictionary of Biochemistry and Molecular Biology\"", 
+                                                                "GOC:go_curators"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": [
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0032505", 
+                                                                    "id": "GO:0032505", 
+                                                                    "label": "reproduction of a single-celled organism", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 3, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0032504", 
+                                                                    "id": "GO:0032504", 
+                                                                    "label": "multicellular organism reproduction", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 2, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0019954", 
+                                                                    "id": "GO:0019954", 
+                                                                    "label": "asexual reproduction", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 6, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0019953", 
+                                                                    "id": "GO:0019953", 
+                                                                    "label": "sexual reproduction", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 5, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "[R]is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "reproductive physiological process"
+                                                        }
+                                                    ], 
+                                                    "string": "EXACT SYNONYM"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "Wikipedia:Reproduction"
+                                                        }
+                                                    ], 
+                                                    "string": "xref"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0008150", 
+                                                                "id": "GO:0008150", 
+                                                                "label": "biological_process", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 30, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "GO:0050876", 
+                                                                "GO:0019952"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "alt_id"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0008150", 
+                                                                "id": "GO:0008150", 
+                                                                "label": "biological_process", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 30, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "synonyms": [
+                                        {
+                                            "string": "reproductive physiological process"
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000005", 
+                                    "id": "GO:0000005", 
+                                    "isObsolete": 1, 
+                                    "label": "ribosomal chaperone activity", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "GOC:jl", 
+                                                                "PMID:12150913"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function."
+                                                        }
+                                                    ], 
+                                                    "string": "Comment"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: Zn2+(out) = Zn2+(in), probably powered by proton motive force. In high affinity transport the transporter is able to bind the solute even if it is only present at very low concentrations."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000006", 
+                                    "id": "GO:0000006", 
+                                    "label": "high affinity zinc uptake transmembrane transporter activity", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "TC:2.A.5.1.1"
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0005385", 
+                                                                "id": "GO:0005385", 
+                                                                "label": "zinc ion transmembrane transporter activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 5, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0005385", 
+                                                                "id": "GO:0005385", 
+                                                                "label": "zinc ion transmembrane transporter activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 5, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: Zn2+ = Zn2+, probably powered by proton motive force. In low affinity transport the transporter is able to bind the solute only if it is present at very high concentrations."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000007", 
+                                    "id": "GO:0000007", 
+                                    "label": "low-affinity zinc ion transmembrane transporter activity", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "GOC:mtg_transport", 
+                                                                "ISBN:0815340729"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0005385", 
+                                                                "id": "GO:0005385", 
+                                                                "label": "zinc ion transmembrane transporter activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 5, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0005385", 
+                                                                "id": "GO:0005385", 
+                                                                "label": "zinc ion transmembrane transporter activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 5, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "OBSOLETE. A small disulfide-containing redox protein that serves as a general protein disulfide oxidoreductase. Interacts with a broad range of proteins by a redox mechanism, based on the reversible oxidation of 2 cysteine thiol groups to a disulfide, accompanied by the transfer of 2 electrons and 2 protons. The net result is the covalent interconversion of a disulfide and a dithiol."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000008", 
+                                    "id": "GO:0000008", 
+                                    "isObsolete": 1, 
+                                    "label": "thioredoxin", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "GOC:kd"
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "This term was made obsolete because it represents gene products."
+                                                        }
+                                                    ], 
+                                                    "string": "Comment"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "GO:0000013"
+                                                        }
+                                                    ], 
+                                                    "string": "alt_id"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "Catalysis of the transfer of a mannose residue from GDP-mannose to an oligosaccharide, forming an alpha-1,6-linkage."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000009", 
+                                    "id": "GO:0000009", 
+                                    "label": "alpha-1,6-mannosyltransferase activity", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SubClass"
+                                                }, 
+                                                {
+                                                    "int": 1, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "PMID:2644248", 
+                                                                "GOC:mcc"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "id": 0, 
+                                                                "label": "*** Too many children...", 
+                                                                "relations": [
+                                                                    ""
+                                                                ]
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "[R]is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "EC:2.4.1.-", 
+                                                                "Reactome:20519"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0000030", 
+                                                                "id": "GO:0000030", 
+                                                                "label": "mannosyltransferase activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 13, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0000030", 
+                                                                "id": "GO:0000030", 
+                                                                "label": "mannosyltransferase activity", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 13, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "Catalysis of the reaction: all-trans-hexaprenyl diphosphate + isopentenyl diphosphate = all-trans-heptaprenyl diphosphate + diphosphate."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000010", 
+                                    "id": "GO:0000010", 
+                                    "label": "trans-hexaprenyltranstransferase activity", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "gosubset_prok"
+                                                        }
+                                                    ], 
+                                                    "string": "subset"
+                                                }, 
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "RHEA:20839", 
+                                                                "EC:2.5.1.30"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "heptaprenyl diphosphate synthase activity", 
+                                                                "heptaprenyl pyrophosphate synthase activity", 
+                                                                "heptaprenyl pyrophosphate synthetase activity", 
+                                                                "all-trans-heptaprenyl-diphosphate synthase activity", 
+                                                                "all-trans-hexaprenyl-diphosphate:isopentenyl-diphosphate hexaprenyltranstransferase activity"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "EXACT SYNONYM"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "EC:2.5.1.30", 
+                                                                "KEGG:R05612", 
+                                                                "MetaCyc:TRANS-HEXAPRENYLTRANSTRANSFERASE-RXN", 
+                                                                "RHEA:20839"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0016765", 
+                                                                "id": "GO:0016765", 
+                                                                "label": "transferase activity, transferring alkyl or aryl (other than methyl) groups", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 57, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": "EC:2.5.1.30"
+                                                        }
+                                                    ], 
+                                                    "string": "xref_EXACT SYNONYM"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": {
+                                                                "fullId": "http://purl.obolibrary.org/obo/GO_0016765", 
+                                                                "id": "GO:0016765", 
+                                                                "label": "transferase activity, transferring alkyl or aryl (other than methyl) groups", 
+                                                                "relations": [
+                                                                    {
+                                                                        "entry": {
+                                                                            "int": 57, 
+                                                                            "string": "ChildCount"
+                                                                        }
+                                                                    }
+                                                                ], 
+                                                                "type": "class"
+                                                            }
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "synonyms": [
+                                        {
+                                            "string": [
+                                                "heptaprenyl diphosphate synthase activity", 
+                                                "heptaprenyl pyrophosphate synthase activity", 
+                                                "heptaprenyl pyrophosphate synthetase activity", 
+                                                "all-trans-heptaprenyl-diphosphate synthase activity", 
+                                                "all-trans-hexaprenyl-diphosphate:isopentenyl-diphosphate hexaprenyltranstransferase activity"
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }, 
+                                {
+                                    "definitions": [
+                                        {
+                                            "string": "The distribution of vacuoles into daughter cells after mitosis or meiosis, mediated by interactions between vacuoles and the cytoskeleton."
+                                        }
+                                    ], 
+                                    "fullId": "http://purl.obolibrary.org/obo/GO_0000011", 
+                                    "id": "GO:0000011", 
+                                    "label": "vacuole inheritance", 
+                                    "relations": [
+                                        {
+                                            "entry": [
+                                                {
+                                                    "int": 0, 
+                                                    "string": "ChildCount"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "string": [
+                                                                "PMID:10873824", 
+                                                                "PMID:14616069", 
+                                                                "GOC:mcc"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "xref_definition"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": [
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048308", 
+                                                                    "id": "GO:0048308", 
+                                                                    "label": "organelle inheritance", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0007033", 
+                                                                    "id": "GO:0007033", 
+                                                                    "label": "vacuole organization", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "is_a"
+                                                }, 
+                                                {
+                                                    "list": [
+                                                        {
+                                                            "classBean": [
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0048308", 
+                                                                    "id": "GO:0048308", 
+                                                                    "label": "organelle inheritance", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }, 
+                                                                {
+                                                                    "fullId": "http://purl.obolibrary.org/obo/GO_0007033", 
+                                                                    "id": "GO:0007033", 
+                                                                    "label": "vacuole organization", 
+                                                                    "relations": [
+                                                                        {
+                                                                            "entry": {
+                                                                                "int": 7, 
+                                                                                "string": "ChildCount"
+                                                                            }
+                                                                        }
+                                                                    ], 
+                                                                    "type": "class"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "string": "SuperClass"
+                                                }
+                                            ]
+                                        }
+                                    ], 
+                                    "type": "class"
+                                }
+                            ]
+                        }
+                    }, 
+                    "numPages": 3329, 
+                    "numResultsPage": 10, 
+                    "numResultsTotal": 33283, 
+                    "pageNum": 1, 
+                    "pageSize": 10
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+---
+abstract: 'Perl API for accessing ontologies from NCBO bioportal'
+author:
+  - 'Siddhartha Basu <biosidd@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: BioPortal-WebService
+requires:
+  Date::Manip: 6.36
+  DateTime::Format::Strptime: 1.52
+  JSON: 2.53
+  LWP::UserAgent: 6.04
+  List::MoreUtils: 0.33
+  Moose: 2.0604
+  OBO::Core::Ontology: 1.40
+  namespace::autoclean: 0.13
+resources:
+  repository: git://github.com/dictyBase/BioPortal-WebService.git
+version: 1.0.0
