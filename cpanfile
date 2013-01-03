@@ -12,8 +12,8 @@ on 'build' => sub {
 };
 
 on 'test' => sub {
-  requires "Test::File" => "1.34";
-  requires "Test::Spec" => "0.46";
+  recommends "Test::File" => "1.34";
+  recommends "Test::Spec" => "0.46";
 };
 
 on 'configure' => sub {

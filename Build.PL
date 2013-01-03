@@ -8,9 +8,7 @@ use Module::Build 0.3601;
 my %module_build_args = (
   "build_requires" => {
     "Date::Manip" => "6.36",
-    "Module::Build" => "0.3601",
-    "Test::File" => "1.34",
-    "Test::Spec" => "0.46"
+    "Module::Build" => "0.3601"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
