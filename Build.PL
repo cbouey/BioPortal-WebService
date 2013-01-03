@@ -7,7 +7,10 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Module::Build" => "0.3601"
+    "Date::Manip" => "6.36",
+    "Module::Build" => "0.3601",
+    "Test::File" => "1.34",
+    "Test::Spec" => "0.46"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -23,7 +26,6 @@ my %module_build_args = (
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Date::Manip" => "6.36",
     "DateTime::Format::Strptime" => "1.52",
     "JSON" => "2.53",
     "LWP::UserAgent" => "6.04",
