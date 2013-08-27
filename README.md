@@ -51,11 +51,11 @@ First get an apikey from [NCBO BioPortal](http://bioportal.bioontology.org)
 
 - Download an ontology in OBO format,  gets a [BioPortal::Download](http://search.cpan.org/perldoc?BioPortal::Download) object 
 
-         my $download = $webservice->download('GO')
-         say $download->filename;
-         if ($download->is_obo) {
-            ...parse obo file here
-          }
+             my $download = $webservice->download('GO')
+             say $download->filename;
+             if ($download->is_obo) {
+                ...parse obo file here
+              }
 
 ## More documentation
 
